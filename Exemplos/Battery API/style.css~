@@ -1,0 +1,40 @@
+ html {
+    background-color: #FEFEFE;
+    font-family: 'Open Sans';
+    margin: 0 auto;
+    width: 100%;
+}
+header h1 {
+   font-size: 1.1em;
+   text-align: center;
+}
+header h2 {
+  font-size: 0.9em;
+  text-align: center;
+  padding: 0.5em;
+}
+header p { 
+   font-style: italic;
+}
+progress {
+    border-radius: 5px;
+    width: 100%;
+}
+#status {
+    margin-top: 1.0em;
+}
+progress[value]::-moz-progress-bar {
+    background-image:
+        -moz-linear-gradient( 135deg,
+        transparent,
+        transparent 33%,
+        rgba(0,0,0,.1) 33%,
+        rgba(0,0,0,.1) 66%,
+        transparent 66%),
+       -moz-linear-gradient( top,
+        rgba(255, 255, 255, .25),
+        rgba(0,0,0,.2)),
+        -moz-linear-gradient( left, #f44, #4f4);
+        background-size: 35px 20px, 100% 100%, 100% 100%;
+        border-radius:3px;
+}

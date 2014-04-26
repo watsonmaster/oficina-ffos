@@ -1,0 +1,13 @@
+{
+  "name": "MozActivities API",
+  "description": "A simple MozActivities API demo",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": ""
+  },
+  "developer": {
+    "name": "Eliezer Bernart",
+    "url": "www.twitter.com/eliezerbernart"
+  },
+  "default_locale": "pt-br"
+}

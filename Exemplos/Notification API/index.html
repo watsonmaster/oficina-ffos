@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Exemplo Notification API</title>
+  </head>
+  <body>
+  <section>
+    <header>
+      <h1>Notification API</h1>
+    </header>
+    <header>
+      <h2>Exemplo utilizando a Notification API</h2>
+    </header>
+  </section>
+  <section id="parametros">
+      <label for="dir">Direção (dir)</label>
+      <select id="dir" default="0">
+        <option value="auto" selected>auto</option>
+        <option value="ltr">ltr</option>
+        <option value="rtl">rtl</option>
+      </select>
+      <br>
+      <label for="title">Titulo (title)</label>
+      <input type="" id="title">
+      <br>
+      <label for="lang">Idioma (lang)</label><input type="" id="lang">
+      <br>
+      <label for="body">Corpo (body)</label><input type="" id="body">
+      <br>
+      <label for="tag">Rótulo (tag)</label><input type="" id="tag">
+      <br>
+      <label for="icon">Ícone (icon)</label><input type="" id="icon">
+      <br><br>
+      <button id="request">Solicitar permissão</button>
+      <br><br>
+      <button id="show">Mostrar notificação</button>
+    </section>
+    <section id="info">
+        <label for="status">Status da Permissão: </label><input id="status" type="text" readonly>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
+

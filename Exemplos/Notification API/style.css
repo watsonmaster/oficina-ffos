@@ -1,0 +1,27 @@
+html {
+    background-color: #FEFEFE;
+    font-family: 'Open Sans';
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+header h1 {
+   font-size: 1.4em;
+   text-align: center;
+}
+
+header h2 {
+  font-size: 0.9em;
+  text-align: center;
+  padding: 0.5em;
+}
+
+header p { 
+   font-style: italic;
+}
+
+input, select, label, button {
+    line-height: 2.5em;
+    width: 100%;
+}

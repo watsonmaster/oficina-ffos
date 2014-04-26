@@ -1,0 +1,33 @@
+(function () {
+    "use strict";
+
+    document.onreadystatechange = function () {
+        document.querySelector("#request").addEventListener("click", request);
+        document.querySelector("#show").addEventListener("click", show);
+    };
+
+    var request = function () {
+        Notification.requestPermission(function (permission) {
+            document.querySelector("#status").value = permission;
+        });
+    };
+
+    var show = function () {
+        if (Notification.permission === "granted") {
+            var title = document.querySelector("#title").value;
+            var dir = document.querySelector("#dir").value;
+            var lang = document.querySelector("#lang").value;
+            var body = document.querySelector("#body").value;
+            var icon = document.querySelector("#icon").value;
+            var n = new Notification(title, {
+                dir: dir,
+                lang: lang,
+                body: body,
+                icon: icon
+            });
+        } else {
+            alert("Você não possuir permissão para criar notificações");
+        }
+    };
+
+}());

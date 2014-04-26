@@ -1,0 +1,13 @@
+{
+  "name": "Screen Orientation API",
+  "description": "A simple Screen Orientation API demo",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": ""
+  },
+  "developer": {
+    "name": "Eliezer Bernart",
+    "url": "www.twitter.com/eliezerbernart"
+  },
+  "default_locale": "pt-br"
+}

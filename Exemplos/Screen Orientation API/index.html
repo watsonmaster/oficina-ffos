@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Exemplo Screen Orientation API</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>Screen Orientation API</h1>
+      </header>
+      <header>
+        <h2>Exemplo usando Screen Orientation API</h2>
+      </header>
+    </section>  
+    <section id="orientation">
+        <label>Status: </label><input id="status" type="text" readonly>
+    </section>
+    <section id="controls">
+      <select id="orientation-lock">
+          <option selected>portrait-primary</option>
+          <option>portrait-secondary</option>
+          <option>landscape-primary</option>
+          <option>landscape-secondary</option>
+          <option>portrait</option>
+          <option>landscape</option>
+      </select>  
+      <button id="lock">Travar</button>
+      <button id="unlock">Destravar</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
+

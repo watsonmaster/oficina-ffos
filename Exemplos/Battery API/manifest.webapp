@@ -1,0 +1,13 @@
+{
+  "name": "Battery API",
+  "description": "A simple Battery API demo",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": ""
+  },
+  "developer": {
+    "name": "Eliezer Bernart",
+    "url": "www.twitter.com/eliezerbernart"
+  },
+  "default_locale": "pt-br"
+}
