@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Media Queries</title>
+    <style>
+        html {
+            font-family: "Open Sans", sans-serif;
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width:1920px) {
+            html {
+                background-color: red;
+            }
+        }
+        
+        @media (max-width:1280px) {
+            html {
+                background-color: green;
+            }
+        }
+        
+        @media (max-width:980px) {
+            html {
+                background-color: blue;
+            }
+        }
+        
+        @media (max-width:800px) {
+            html {
+                background-color: brown;
+            }
+        }
+        
+        @media (max-width:768px) {
+            html {
+                background-color: yellow;
+            }
+        }
+        
+        @media (max-width:360px) {
+            html {
+                background-color: violet;
+            }
+        }
+        
+        @media (orientation: portrait) {
+            h1 { color: white; }
+        }
+        
+        @media (orientation: portrait) and (max-width:360px) {
+            h1 { color: gold; }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Media Queries</h1>
+        </header>
+    </main>
+</body>
+</html>
